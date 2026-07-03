@@ -110,5 +110,8 @@ Any frontend can talk to this by calling `/api/upload` (or `/api/upload-text`)
 to get a `session_id`, then calling `/api/generate/{kind}` for each of
 `concepts`, `questions`, `flashcards`, and `plan` with that `session_id`. If
 you're using the Study Desk HTML artifact built earlier, swap its direct
+
+DISCLAIMER: THIS APP IS UNDER TESTING PHASE ,SO IF ANYONE -USING THIS CODE, FINDS ANY ERROR THEN PLEASE DO SEND ME A PULL REQUEST MENTIONING THE SAME.
+
 `fetch()` calls to `api.anthropic.com` for calls to this backend's endpoints
 instead.
